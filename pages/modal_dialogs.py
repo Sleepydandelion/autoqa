@@ -11,3 +11,5 @@ class ModalDialogs(BasePage):
         self.btn_submenu = WebElement(driver, 'div:nth-child(3) > div > ul > li')
         self.btn_all = WebElement(driver, '.btn')
         self.icon = WebElement(driver, '#app > header > a > img')
+
+

@@ -21,7 +21,6 @@ class BasePage:
     def get_title(self):
         return self.driver.title
 
-
     def equal_url(self):
         if self.get_url() == self.base_url:
             return True
